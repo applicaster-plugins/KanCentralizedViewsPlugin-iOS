@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072316EE229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072316E4229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework */; };
+		072316F3229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072316F2229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.swift */; };
+		072316F5229BAD8D005DFE6A /* KanCentralizedViewsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 072316E7229BAD8D005DFE6A /* KanCentralizedViewsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07231708229BB38A005DFE6A /* KanDialogUtiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07231700229BB38A005DFE6A /* KanDialogUtiles.swift */; };
+		07231709229BB38A005DFE6A /* KanDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07231701229BB38A005DFE6A /* KanDialogView.swift */; };
+		0723170D229BB38A005DFE6A /* KanDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07231705229BB38A005DFE6A /* KanDialogView.xib */; };
+		0723170E229BB38A005DFE6A /* KanCustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07231706229BB38A005DFE6A /* KanCustomDialog.swift */; };
+		36341544F2E3CF24D56F848A /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */; };
+		79988DD84056045964F9AA58 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072316EF229BAD8D005DFE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072316DB229BAD8D005DFE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072316E3229BAD8D005DFE6A;
+			remoteInfo = KanCentralizedViewsPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072316E4229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanCentralizedViewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		072316E7229BAD8D005DFE6A /* KanCentralizedViewsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KanCentralizedViewsPlugin.h; sourceTree = "<group>"; };
+		072316E8229BAD8D005DFE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072316ED229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanCentralizedViewsPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		072316F2229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanCentralizedViewsPluginTests.swift; sourceTree = "<group>"; };
+		072316F4229BAD8D005DFE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07231700229BB38A005DFE6A /* KanDialogUtiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanDialogUtiles.swift; sourceTree = "<group>"; };
+		07231701229BB38A005DFE6A /* KanDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanDialogView.swift; sourceTree = "<group>"; };
+		07231705229BB38A005DFE6A /* KanDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanDialogView.xib; sourceTree = "<group>"; };
+		07231706229BB38A005DFE6A /* KanCustomDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanCustomDialog.swift; sourceTree = "<group>"; };
+		159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; sourceTree = "<group>"; };
+		187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0956922C1A0E20F3569B307 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		D707DB2124E90BD8EFD39783 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072316E1229BAD8D005DFE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36341544F2E3CF24D56F848A /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072316EA229BAD8D005DFE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072316EE229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework in Frameworks */,
+				79988DD84056045964F9AA58 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072316DA229BAD8D005DFE6A = {
+			isa = PBXGroup;
+			children = (
+				072316E6229BAD8D005DFE6A /* KanCentralizedViewsPlugin */,
+				072316F1229BAD8D005DFE6A /* KanCentralizedViewsPluginTests */,
+				072316E5229BAD8D005DFE6A /* Products */,
+				1C1EE7291DF4B2B36136E8E6 /* Pods */,
+				806B8835AE4BF4813C464B19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		072316E5229BAD8D005DFE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072316E4229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework */,
+				072316ED229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072316E6229BAD8D005DFE6A /* KanCentralizedViewsPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				072316FE229BB38A005DFE6A /* KanDialogView */,
+				072316E7229BAD8D005DFE6A /* KanCentralizedViewsPlugin.h */,
+				072316E8229BAD8D005DFE6A /* Info.plist */,
+			);
+			path = KanCentralizedViewsPlugin;
+			sourceTree = "<group>";
+		};
+		072316F1229BAD8D005DFE6A /* KanCentralizedViewsPluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				072316F2229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.swift */,
+				072316F4229BAD8D005DFE6A /* Info.plist */,
+			);
+			path = KanCentralizedViewsPluginTests;
+			sourceTree = "<group>";
+		};
+		072316FE229BB38A005DFE6A /* KanDialogView */ = {
+			isa = PBXGroup;
+			children = (
+				07231700229BB38A005DFE6A /* KanDialogUtiles.swift */,
+				07231701229BB38A005DFE6A /* KanDialogView.swift */,
+				07231705229BB38A005DFE6A /* KanDialogView.xib */,
+				07231706229BB38A005DFE6A /* KanCustomDialog.swift */,
+			);
+			path = KanDialogView;
+			sourceTree = "<group>";
+		};
+		1C1EE7291DF4B2B36136E8E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0956922C1A0E20F3569B307 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */,
+				D707DB2124E90BD8EFD39783 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */,
+				2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */,
+				159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		806B8835AE4BF4813C464B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */,
+				9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		072316DF229BAD8D005DFE6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072316F5229BAD8D005DFE6A /* KanCentralizedViewsPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		072316E3229BAD8D005DFE6A /* KanCentralizedViewsPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072316F8229BAD8D005DFE6A /* Build configuration list for PBXNativeTarget "KanCentralizedViewsPlugin" */;
+			buildPhases = (
+				CDCD8EF0D28A9C880B74EE81 /* [CP] Check Pods Manifest.lock */,
+				072316DF229BAD8D005DFE6A /* Headers */,
+				072316E0229BAD8D005DFE6A /* Sources */,
+				072316E1229BAD8D005DFE6A /* Frameworks */,
+				072316E2229BAD8D005DFE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanCentralizedViewsPlugin;
+			productName = KanCentralizedViewsPlugin;
+			productReference = 072316E4229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		072316EC229BAD8D005DFE6A /* KanCentralizedViewsPluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072316FB229BAD8D005DFE6A /* Build configuration list for PBXNativeTarget "KanCentralizedViewsPluginTests" */;
+			buildPhases = (
+				88E83CB379652819EDC1AD8C /* [CP] Check Pods Manifest.lock */,
+				072316E9229BAD8D005DFE6A /* Sources */,
+				072316EA229BAD8D005DFE6A /* Frameworks */,
+				072316EB229BAD8D005DFE6A /* Resources */,
+				B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072316F0229BAD8D005DFE6A /* PBXTargetDependency */,
+			);
+			name = KanCentralizedViewsPluginTests;
+			productName = KanCentralizedViewsPluginTests;
+			productReference = 072316ED229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072316DB229BAD8D005DFE6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Avi Levin";
+				TargetAttributes = {
+					072316E3229BAD8D005DFE6A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					072316EC229BAD8D005DFE6A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 072316DE229BAD8D005DFE6A /* Build configuration list for PBXProject "KanCentralizedViewsPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 072316DA229BAD8D005DFE6A;
+			productRefGroup = 072316E5229BAD8D005DFE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072316E3229BAD8D005DFE6A /* KanCentralizedViewsPlugin */,
+				072316EC229BAD8D005DFE6A /* KanCentralizedViewsPluginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072316E2229BAD8D005DFE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0723170D229BB38A005DFE6A /* KanDialogView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072316EB229BAD8D005DFE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88E83CB379652819EDC1AD8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh",
+				"${PODS_ROOT}/ZappPlugins/Frameworks/iOS/ZappPlugins.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDCD8EF0D28A9C880B74EE81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KanCentralizedViewsPlugin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072316E0229BAD8D005DFE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0723170E229BB38A005DFE6A /* KanCustomDialog.swift in Sources */,
+				07231708229BB38A005DFE6A /* KanDialogUtiles.swift in Sources */,
+				07231709229BB38A005DFE6A /* KanDialogView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072316E9229BAD8D005DFE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072316F3229BAD8D005DFE6A /* KanCentralizedViewsPluginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072316F0229BAD8D005DFE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072316E3229BAD8D005DFE6A /* KanCentralizedViewsPlugin */;
+			targetProxy = 072316EF229BAD8D005DFE6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		072316F6229BAD8D005DFE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		072316F7229BAD8D005DFE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		072316F9229BAD8D005DFE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0956922C1A0E20F3569B307 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KanCentralizedViewsPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072316FA229BAD8D005DFE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D707DB2124E90BD8EFD39783 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KanCentralizedViewsPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		072316FC229BAD8D005DFE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KanCentralizedViewsPluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072316FD229BAD8D005DFE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KanCentralizedViewsPluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072316DE229BAD8D005DFE6A /* Build configuration list for PBXProject "KanCentralizedViewsPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072316F6229BAD8D005DFE6A /* Debug */,
+				072316F7229BAD8D005DFE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072316F8229BAD8D005DFE6A /* Build configuration list for PBXNativeTarget "KanCentralizedViewsPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072316F9229BAD8D005DFE6A /* Debug */,
+				072316FA229BAD8D005DFE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072316FB229BAD8D005DFE6A /* Build configuration list for PBXNativeTarget "KanCentralizedViewsPluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072316FC229BAD8D005DFE6A /* Debug */,
+				072316FD229BAD8D005DFE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 072316DB229BAD8D005DFE6A /* Project object */;
+}
