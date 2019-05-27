@@ -30,11 +30,11 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappGeneralPluginChromecast-v1-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: KanCentralizedViewsPlugin-v1-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappGeneralPluginChromecast-v1-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappGeneralPluginChromecast-v1-{{ .Branch }}-
-            - Zapp-ZappGeneralPluginChromecast-v1-
+            - KanCentralizedViewsPlugin-v1-{{ .Branch }}-{{ .Revision }}
+            - KanCentralizedViewsPlugin-v1-{{ .Branch }}-
+            - KanCentralizedViewsPlugin-v1-
 
       - checkout
 
@@ -66,7 +66,7 @@ jobs:
       # Prepare Bundler
       - restore_cache:
           name: Bundler - restore cache
-          key: Zapp-ZappGeneralPluginChromecast-v1-{{ checksum "Gemfile.lock" }}
+          key: KanCentralizedViewsPlugin-v1-{{ checksum "Gemfile.lock" }}
 
       - run:
           name: Bundler - update dependencies
@@ -74,14 +74,14 @@ jobs:
 
       - save_cache:
           name: Bundler - save cache
-          key: Zapp-ZappGeneralPluginChromecast-v1-{{ checksum "Gemfile.lock" }}
+          key: KanCentralizedViewsPlugin-v1-{{ checksum "Gemfile.lock" }}
           paths:
             - /Users/distiller/.rubies/ruby-2.4.2/lib/ruby/gems/2.4.0/gems
 
       # Restore Cocoapods cache, save cache on lower level, after pod update
       - restore_cache:
           name: CocoaPods - restore cache
-          key: Zapp-ZappGeneralPluginChromecast-CocoaPods-2
+          key: KanCentralizedViewsPlugin-CocoaPods-2
 
       - run:
           name: CocoaPods - version
