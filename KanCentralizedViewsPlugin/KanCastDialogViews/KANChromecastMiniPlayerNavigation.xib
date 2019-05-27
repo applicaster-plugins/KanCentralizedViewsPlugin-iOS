@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KANChromecastMiniPlayerViewController" customModule="ZappGeneralPluginChromecast" customModuleProvider="target">
+            <connections>
+                <outlet property="castContainer" destination="m7a-eI-XoO" id="3lA-k9-aFg"/>
+                <outlet property="deviceMessage" destination="6VT-G4-3no" id="NvJ-EX-ZXK"/>
+                <outlet property="pauseButton" destination="9ZY-Mv-BgU" id="rkc-uH-3wK"/>
+                <outlet property="playButton" destination="mdy-mR-MBS" id="xf6-45-h0o"/>
+                <outlet property="streamSlider" destination="PIv-zh-SRx" id="ZWi-jb-a1Q"/>
+                <outlet property="streamTitle" destination="dus-Vr-Ytu" id="mul-gU-5ko"/>
+                <outlet property="view" destination="iN0-l3-epB" id="n5P-oh-4nA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8X8-fT-pAB" userLabel="ChromecastMiniContainer">
+                    <rect key="frame" x="7" y="0.0" width="328" height="60"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7a-eI-XoO" userLabel="CastContainer">
+                            <rect key="frame" x="14" y="12.5" width="35" height="35"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="iI7-WA-Ilp"/>
+                                <constraint firstAttribute="width" constant="35" id="s1R-x2-cjl"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpU-J0-cCt" userLabel="PlayPause Container">
+                            <rect key="frame" x="99" y="16" width="28" height="28"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZY-Mv-BgU" userLabel="Pause">
+                                    <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
+                                    <state key="normal" image="nagan_pause_icon.png"/>
+                                    <connections>
+                                        <action selector="pauseAction:" destination="-1" eventType="touchUpInside" id="XPr-wP-pO7"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdy-mR-MBS" userLabel="Play">
+                                    <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
+                                    <state key="normal" image="nagan_play_icon.png"/>
+                                    <connections>
+                                        <action selector="playAction:" destination="-1" eventType="touchUpInside" id="f5A-6v-I2g"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="mdy-mR-MBS" secondAttribute="trailing" id="34Y-Bj-paH"/>
+                                <constraint firstItem="9ZY-Mv-BgU" firstAttribute="leading" secondItem="VpU-J0-cCt" secondAttribute="leading" id="4WK-1x-5sc"/>
+                                <constraint firstAttribute="height" constant="28" id="4fZ-VD-09U"/>
+                                <constraint firstAttribute="bottom" secondItem="9ZY-Mv-BgU" secondAttribute="bottom" id="D00-1c-eZB"/>
+                                <constraint firstAttribute="trailing" secondItem="9ZY-Mv-BgU" secondAttribute="trailing" id="EdW-aw-Tre"/>
+                                <constraint firstItem="mdy-mR-MBS" firstAttribute="leading" secondItem="VpU-J0-cCt" secondAttribute="leading" id="WiG-dK-ikT"/>
+                                <constraint firstAttribute="bottom" secondItem="mdy-mR-MBS" secondAttribute="bottom" id="dC8-sI-WmR"/>
+                                <constraint firstAttribute="width" constant="28" id="ePy-Oq-Lbc"/>
+                                <constraint firstItem="mdy-mR-MBS" firstAttribute="top" secondItem="VpU-J0-cCt" secondAttribute="top" id="foI-bF-tbF"/>
+                                <constraint firstItem="9ZY-Mv-BgU" firstAttribute="top" secondItem="VpU-J0-cCt" secondAttribute="top" id="rAZ-FE-oHc"/>
+                            </constraints>
+                        </view>
+                        <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PIv-zh-SRx" userLabel="StreamSlider">
+                            <rect key="frame" x="-2" y="30" width="332" height="31"/>
+                        </slider>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="o4g-lG-w13">
+                            <rect key="frame" x="228.5" y="15" width="86.5" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="כותרת" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dus-Vr-Ytu" userLabel="StreamTitle">
+                                    <rect key="frame" x="48.5" y="0.0" width="38" height="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מחובר למכשיר" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6VT-G4-3no" userLabel="DeviceMessage">
+                                    <rect key="frame" x="0.0" y="17" width="86.5" height="13"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="m7a-eI-XoO" firstAttribute="leading" secondItem="8X8-fT-pAB" secondAttribute="leading" constant="14" id="7JE-cQ-bIe"/>
+                        <constraint firstAttribute="bottom" secondItem="PIv-zh-SRx" secondAttribute="bottom" id="BD8-LD-YSu"/>
+                        <constraint firstItem="o4g-lG-w13" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VpU-J0-cCt" secondAttribute="trailing" constant="50" id="EPV-dn-x1T"/>
+                        <constraint firstItem="VpU-J0-cCt" firstAttribute="leading" secondItem="m7a-eI-XoO" secondAttribute="trailing" constant="50" id="Mjf-Ep-ocm"/>
+                        <constraint firstItem="VpU-J0-cCt" firstAttribute="centerY" secondItem="8X8-fT-pAB" secondAttribute="centerY" id="RsP-nc-lN5"/>
+                        <constraint firstAttribute="trailing" secondItem="o4g-lG-w13" secondAttribute="trailing" constant="13" id="Uv0-Xz-VxX"/>
+                        <constraint firstAttribute="trailing" secondItem="PIv-zh-SRx" secondAttribute="trailing" id="fw2-Du-Q6T"/>
+                        <constraint firstItem="m7a-eI-XoO" firstAttribute="centerY" secondItem="8X8-fT-pAB" secondAttribute="centerY" id="pbf-Bh-Dzg"/>
+                        <constraint firstItem="PIv-zh-SRx" firstAttribute="leading" secondItem="8X8-fT-pAB" secondAttribute="leading" id="tFV-oy-uCk"/>
+                        <constraint firstItem="o4g-lG-w13" firstAttribute="top" secondItem="8X8-fT-pAB" secondAttribute="top" constant="15" id="wrm-a2-lC4"/>
+                        <constraint firstAttribute="bottom" secondItem="o4g-lG-w13" secondAttribute="bottom" constant="15" id="xuH-Gb-9gq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8X8-fT-pAB" secondAttribute="bottom" constant="4" id="7Rp-FF-NND"/>
+                <constraint firstItem="8X8-fT-pAB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="Zbf-sp-6di"/>
+                <constraint firstAttribute="trailing" secondItem="8X8-fT-pAB" secondAttribute="trailing" constant="7" id="ulM-Kj-seE"/>
+                <constraint firstItem="8X8-fT-pAB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wXO-fV-8HA"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-276.80000000000001" y="96.251874062968525"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nagan_pause_icon.png" width="12" height="39"/>
+        <image name="nagan_play_icon.png" width="26" height="29"/>
+    </resources>
+</document>

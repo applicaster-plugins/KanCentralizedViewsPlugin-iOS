@@ -103,7 +103,7 @@ jobs:
       # Cache CocoaPods
       - save_cache:
           name: CocoaPods - save cache
-          key: Zapp-ZappGeneralPluginChromecast-CocoaPods-2
+          key: KanCentralizedViewsPlugin-CocoaPods-2
           paths:
             - "~/.cocoapods"
             - "Pods"

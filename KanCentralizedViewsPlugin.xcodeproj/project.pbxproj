@@ -14,6 +14,33 @@
 		07231709229BB38A005DFE6A /* KanDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07231701229BB38A005DFE6A /* KanDialogView.swift */; };
 		0723170D229BB38A005DFE6A /* KanDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07231705229BB38A005DFE6A /* KanDialogView.xib */; };
 		0723170E229BB38A005DFE6A /* KanCustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07231706229BB38A005DFE6A /* KanCustomDialog.swift */; };
+		078D33F7229C0A5C003CC446 /* KanDialogCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078D33DC229C0A5C003CC446 /* KanDialogCollectionCell.xib */; };
+		078D33F8229C0A5C003CC446 /* ChromecastDeviceDisconnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33DD229C0A5C003CC446 /* ChromecastDeviceDisconnectView.swift */; };
+		078D33F9229C0A5C003CC446 /* ChromecastDeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33DE229C0A5C003CC446 /* ChromecastDeviceListView.swift */; };
+		078D33FA229C0A5C003CC446 /* ChromecastDeviceListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078D33DF229C0A5C003CC446 /* ChromecastDeviceListView.xib */; };
+		078D33FB229C0A5C003CC446 /* KANChromecastMiniPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33E0229C0A5C003CC446 /* KANChromecastMiniPlayerViewController.swift */; };
+		078D33FC229C0A5C003CC446 /* KANChromecastPlayerNavigation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E1229C0A5C003CC446 /* KANChromecastPlayerNavigation.xib */; };
+		078D33FD229C0A5C003CC446 /* ChromecastDeviceDisconnectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E2229C0A5C003CC446 /* ChromecastDeviceDisconnectView.xib */; };
+		078D33FE229C0A5C003CC446 /* ChromecastConnectDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33E3229C0A5C003CC446 /* ChromecastConnectDialog.swift */; };
+		078D33FF229C0A5C003CC446 /* KanDialogCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33E4229C0A5C003CC446 /* KanDialogCollectionCell.swift */; };
+		078D3400229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E5229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib */; };
+		078D3401229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33E6229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift */; };
+		078D3402229C0A5C003CC446 /* nagan_pause_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E8229C0A5C003CC446 /* nagan_pause_icon@3x.png */; };
+		078D3403229C0A5C003CC446 /* nagan_play_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E9229C0A5C003CC446 /* nagan_play_icon@2x.png */; };
+		078D3404229C0A5C003CC446 /* deviceCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EA229C0A5C003CC446 /* deviceCircle@2x.png */; };
+		078D3405229C0A5C003CC446 /* minimize_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EB229C0A5C003CC446 /* minimize_icon.png */; };
+		078D3406229C0A5C003CC446 /* deviceCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EC229C0A5C003CC446 /* deviceCircle@3x.png */; };
+		078D3407229C0A5C003CC446 /* nagan_play_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33ED229C0A5C003CC446 /* nagan_play_icon@3x.png */; };
+		078D3408229C0A5C003CC446 /* nagan_pause_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EE229C0A5C003CC446 /* nagan_pause_icon@2x.png */; };
+		078D3409229C0A5C003CC446 /* navBarCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EF229C0A5C003CC446 /* navBarCircle.png */; };
+		078D340A229C0A5C003CC446 /* minimize_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F0229C0A5C003CC446 /* minimize_icon@3x.png */; };
+		078D340B229C0A5C003CC446 /* nagan_pause_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F1229C0A5C003CC446 /* nagan_pause_icon.png */; };
+		078D340C229C0A5C003CC446 /* minimize_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F2229C0A5C003CC446 /* minimize_icon@2x.png */; };
+		078D340D229C0A5C003CC446 /* navBarCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F3229C0A5C003CC446 /* navBarCircle@3x.png */; };
+		078D340E229C0A5C003CC446 /* deviceCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F4229C0A5C003CC446 /* deviceCircle.png */; };
+		078D340F229C0A5C003CC446 /* nagan_play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F5229C0A5C003CC446 /* nagan_play_icon.png */; };
+		078D3410229C0A5C003CC446 /* navBarCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */; };
+		078D3412229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */; };
 		36341544F2E3CF24D56F848A /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */; };
 		79988DD84056045964F9AA58 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +66,33 @@
 		07231701229BB38A005DFE6A /* KanDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanDialogView.swift; sourceTree = "<group>"; };
 		07231705229BB38A005DFE6A /* KanDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanDialogView.xib; sourceTree = "<group>"; };
 		07231706229BB38A005DFE6A /* KanCustomDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanCustomDialog.swift; sourceTree = "<group>"; };
+		078D33DC229C0A5C003CC446 /* KanDialogCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanDialogCollectionCell.xib; sourceTree = "<group>"; };
+		078D33DD229C0A5C003CC446 /* ChromecastDeviceDisconnectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromecastDeviceDisconnectView.swift; sourceTree = "<group>"; };
+		078D33DE229C0A5C003CC446 /* ChromecastDeviceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromecastDeviceListView.swift; sourceTree = "<group>"; };
+		078D33DF229C0A5C003CC446 /* ChromecastDeviceListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChromecastDeviceListView.xib; sourceTree = "<group>"; };
+		078D33E0229C0A5C003CC446 /* KANChromecastMiniPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KANChromecastMiniPlayerViewController.swift; sourceTree = "<group>"; };
+		078D33E1229C0A5C003CC446 /* KANChromecastPlayerNavigation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KANChromecastPlayerNavigation.xib; sourceTree = "<group>"; };
+		078D33E2229C0A5C003CC446 /* ChromecastDeviceDisconnectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChromecastDeviceDisconnectView.xib; sourceTree = "<group>"; };
+		078D33E3229C0A5C003CC446 /* ChromecastConnectDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromecastConnectDialog.swift; sourceTree = "<group>"; };
+		078D33E4229C0A5C003CC446 /* KanDialogCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanDialogCollectionCell.swift; sourceTree = "<group>"; };
+		078D33E5229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KANChromecastMiniPlayerNavigation.xib; sourceTree = "<group>"; };
+		078D33E6229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KANChromecastInlinePlayerViewController.swift; sourceTree = "<group>"; };
+		078D33E8229C0A5C003CC446 /* nagan_pause_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_pause_icon@3x.png"; sourceTree = "<group>"; };
+		078D33E9229C0A5C003CC446 /* nagan_play_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_play_icon@2x.png"; sourceTree = "<group>"; };
+		078D33EA229C0A5C003CC446 /* deviceCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceCircle@2x.png"; sourceTree = "<group>"; };
+		078D33EB229C0A5C003CC446 /* minimize_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize_icon.png; sourceTree = "<group>"; };
+		078D33EC229C0A5C003CC446 /* deviceCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceCircle@3x.png"; sourceTree = "<group>"; };
+		078D33ED229C0A5C003CC446 /* nagan_play_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_play_icon@3x.png"; sourceTree = "<group>"; };
+		078D33EE229C0A5C003CC446 /* nagan_pause_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_pause_icon@2x.png"; sourceTree = "<group>"; };
+		078D33EF229C0A5C003CC446 /* navBarCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarCircle.png; sourceTree = "<group>"; };
+		078D33F0229C0A5C003CC446 /* minimize_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize_icon@3x.png"; sourceTree = "<group>"; };
+		078D33F1229C0A5C003CC446 /* nagan_pause_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nagan_pause_icon.png; sourceTree = "<group>"; };
+		078D33F2229C0A5C003CC446 /* minimize_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize_icon@2x.png"; sourceTree = "<group>"; };
+		078D33F3229C0A5C003CC446 /* navBarCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarCircle@3x.png"; sourceTree = "<group>"; };
+		078D33F4229C0A5C003CC446 /* deviceCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviceCircle.png; sourceTree = "<group>"; };
+		078D33F5229C0A5C003CC446 /* nagan_play_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nagan_play_icon.png; sourceTree = "<group>"; };
+		078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarCircle@2x.png"; sourceTree = "<group>"; };
+		078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromecastCustomPlayerViewController.swift; sourceTree = "<group>"; };
 		159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +145,7 @@
 		072316E6229BAD8D005DFE6A /* KanCentralizedViewsPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				078D33DB229C0A5C003CC446 /* KanCastDialogViews */,
 				072316FE229BB38A005DFE6A /* KanDialogView */,
 				072316E7229BAD8D005DFE6A /* KanCentralizedViewsPlugin.h */,
 				072316E8229BAD8D005DFE6A /* Info.plist */,
@@ -116,6 +171,48 @@
 				07231706229BB38A005DFE6A /* KanCustomDialog.swift */,
 			);
 			path = KanDialogView;
+			sourceTree = "<group>";
+		};
+		078D33DB229C0A5C003CC446 /* KanCastDialogViews */ = {
+			isa = PBXGroup;
+			children = (
+				078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */,
+				078D33DC229C0A5C003CC446 /* KanDialogCollectionCell.xib */,
+				078D33DD229C0A5C003CC446 /* ChromecastDeviceDisconnectView.swift */,
+				078D33DE229C0A5C003CC446 /* ChromecastDeviceListView.swift */,
+				078D33DF229C0A5C003CC446 /* ChromecastDeviceListView.xib */,
+				078D33E0229C0A5C003CC446 /* KANChromecastMiniPlayerViewController.swift */,
+				078D33E1229C0A5C003CC446 /* KANChromecastPlayerNavigation.xib */,
+				078D33E2229C0A5C003CC446 /* ChromecastDeviceDisconnectView.xib */,
+				078D33E3229C0A5C003CC446 /* ChromecastConnectDialog.swift */,
+				078D33E4229C0A5C003CC446 /* KanDialogCollectionCell.swift */,
+				078D33E5229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib */,
+				078D33E6229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift */,
+				078D33E7229C0A5C003CC446 /* Assets */,
+			);
+			path = KanCastDialogViews;
+			sourceTree = "<group>";
+		};
+		078D33E7229C0A5C003CC446 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				078D33E8229C0A5C003CC446 /* nagan_pause_icon@3x.png */,
+				078D33E9229C0A5C003CC446 /* nagan_play_icon@2x.png */,
+				078D33EA229C0A5C003CC446 /* deviceCircle@2x.png */,
+				078D33EB229C0A5C003CC446 /* minimize_icon.png */,
+				078D33EC229C0A5C003CC446 /* deviceCircle@3x.png */,
+				078D33ED229C0A5C003CC446 /* nagan_play_icon@3x.png */,
+				078D33EE229C0A5C003CC446 /* nagan_pause_icon@2x.png */,
+				078D33EF229C0A5C003CC446 /* navBarCircle.png */,
+				078D33F0229C0A5C003CC446 /* minimize_icon@3x.png */,
+				078D33F1229C0A5C003CC446 /* nagan_pause_icon.png */,
+				078D33F2229C0A5C003CC446 /* minimize_icon@2x.png */,
+				078D33F3229C0A5C003CC446 /* navBarCircle@3x.png */,
+				078D33F4229C0A5C003CC446 /* deviceCircle.png */,
+				078D33F5229C0A5C003CC446 /* nagan_play_icon.png */,
+				078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		1C1EE7291DF4B2B36136E8E6 /* Pods */ = {
@@ -161,6 +258,7 @@
 				072316E0229BAD8D005DFE6A /* Sources */,
 				072316E1229BAD8D005DFE6A /* Frameworks */,
 				072316E2229BAD8D005DFE6A /* Resources */,
+				A180034398A82692A670FABD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +278,7 @@
 				072316EA229BAD8D005DFE6A /* Frameworks */,
 				072316EB229BAD8D005DFE6A /* Resources */,
 				B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */,
+				5FE7D92D13F81E6DF9A41ABB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +331,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078D3405229C0A5C003CC446 /* minimize_icon.png in Resources */,
+				078D3410229C0A5C003CC446 /* navBarCircle@2x.png in Resources */,
+				078D340D229C0A5C003CC446 /* navBarCircle@3x.png in Resources */,
+				078D340B229C0A5C003CC446 /* nagan_pause_icon.png in Resources */,
+				078D33FD229C0A5C003CC446 /* ChromecastDeviceDisconnectView.xib in Resources */,
+				078D3402229C0A5C003CC446 /* nagan_pause_icon@3x.png in Resources */,
+				078D3400229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib in Resources */,
+				078D340C229C0A5C003CC446 /* minimize_icon@2x.png in Resources */,
+				078D3406229C0A5C003CC446 /* deviceCircle@3x.png in Resources */,
+				078D3409229C0A5C003CC446 /* navBarCircle.png in Resources */,
+				078D33F7229C0A5C003CC446 /* KanDialogCollectionCell.xib in Resources */,
+				078D340A229C0A5C003CC446 /* minimize_icon@3x.png in Resources */,
 				0723170D229BB38A005DFE6A /* KanDialogView.xib in Resources */,
+				078D340F229C0A5C003CC446 /* nagan_play_icon.png in Resources */,
+				078D3404229C0A5C003CC446 /* deviceCircle@2x.png in Resources */,
+				078D3403229C0A5C003CC446 /* nagan_play_icon@2x.png in Resources */,
+				078D3408229C0A5C003CC446 /* nagan_pause_icon@2x.png in Resources */,
+				078D33FC229C0A5C003CC446 /* KANChromecastPlayerNavigation.xib in Resources */,
+				078D3407229C0A5C003CC446 /* nagan_play_icon@3x.png in Resources */,
+				078D340E229C0A5C003CC446 /* deviceCircle.png in Resources */,
+				078D33FA229C0A5C003CC446 /* ChromecastDeviceListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +365,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5FE7D92D13F81E6DF9A41ABB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		88E83CB379652819EDC1AD8C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +411,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A180034398A82692A670FABD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,12 +444,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ZappGeneralPluginsSDK/ZappGeneralPluginsSDK.framework",
 				"${PODS_ROOT}/ZappPlugins/Frameworks/iOS/ZappPlugins.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappGeneralPluginsSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,8 +491,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0723170E229BB38A005DFE6A /* KanCustomDialog.swift in Sources */,
+				078D33F9229C0A5C003CC446 /* ChromecastDeviceListView.swift in Sources */,
+				078D33F8229C0A5C003CC446 /* ChromecastDeviceDisconnectView.swift in Sources */,
 				07231708229BB38A005DFE6A /* KanDialogUtiles.swift in Sources */,
+				078D33FE229C0A5C003CC446 /* ChromecastConnectDialog.swift in Sources */,
+				078D33FB229C0A5C003CC446 /* KANChromecastMiniPlayerViewController.swift in Sources */,
+				078D33FF229C0A5C003CC446 /* KanDialogCollectionCell.swift in Sources */,
 				07231709229BB38A005DFE6A /* KanDialogView.swift in Sources */,
+				078D3401229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift in Sources */,
+				078D3412229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

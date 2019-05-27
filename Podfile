@@ -14,10 +14,8 @@ end
 
 def shared_pods
   pod 'ZappPlugins'
-  #pod 'ZappGeneralPluginsSDK'
-  #pod 'ZappRootPluginsSDK'
-#  pod 'ApplicasterSDK', :path => 'Submodules/ApplicasterSDK/ApplicasterSDK-Dev.podspec'
- # pod 'google-cast-sdk', '= 4.3.3'
+  pod 'google-cast-sdk', '= 4.3.3'
+  pod 'ZappGeneralPluginsSDK'
 end
 
 target 'KanCentralizedViewsPlugin' do
