@@ -8,7 +8,7 @@
 import Foundation
 import ZappPlugins
 
-class KanDialogView: UIView {
+public class KanDialogView: UIView {
 
     let KanDialogCollectionCellIdentifier = "KanDialogCollectionCell"
     
@@ -20,7 +20,7 @@ class KanDialogView: UIView {
     @IBOutlet weak var containerView: UIView!
     
     var intervalArray: [String]?
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         //Font setup
         customizeText()

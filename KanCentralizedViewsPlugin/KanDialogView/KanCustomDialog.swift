@@ -8,9 +8,9 @@
 import UIKit
 import ZappPlugins
 
-class KanCustomDialog: NSObject {
+open class KanCustomDialog: NSObject {
     
-    open var dialogView: KanDialogView?
+    public var dialogView: KanDialogView?
     
     let KanDialogCollectionCellIdentifier = "KanDialogCollectionCell"
     

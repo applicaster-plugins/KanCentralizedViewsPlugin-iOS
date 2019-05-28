@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChromecastDeviceDisconnectView" customModule="ZappGeneralPluginChromecast" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChromecastDeviceDisconnectView" customModule="KanCentralizedViewsPlugin" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="401" height="87"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -41,7 +41,7 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                             <connections>
-                                <action selector="disconnectChromecast:" destination="iN0-l3-epB" eventType="touchUpInside" id="C6D-U0-ZfU"/>
+                                <action selector="disconnectChromecast:" destination="iN0-l3-epB" eventType="touchUpInside" id="BG1-CW-IMh"/>
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="משדר ל- SalonCast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vez-Ug-Sb2">
@@ -61,8 +61,8 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="connectInformation" destination="vez-Ug-Sb2" id="oue-Xl-zc3"/>
-                <outlet property="disconnectButton" destination="xev-UD-aVM" id="Y11-br-7X8"/>
+                <outlet property="connectInformation" destination="vez-Ug-Sb2" id="03x-8K-6R6"/>
+                <outlet property="disconnectButton" destination="xev-UD-aVM" id="N9c-AE-Lnj"/>
             </connections>
             <point key="canvasLocation" x="-160.80000000000001" y="104.7976011994003"/>
         </view>

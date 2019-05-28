@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="AJV-ML-Y1s" customClass="KanDialogView" customModule="ZappGeneralPluginChromecast" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="AJV-ML-Y1s" customClass="KanDialogView" customModule="KanCentralizedViewsPlugin" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="441" height="701"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -57,7 +57,7 @@
                                 <color key="titleColor" red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <connections>
-                                <action selector="closeButtonClickWithSender:" destination="AJV-ML-Y1s" eventType="touchUpInside" id="qkA-dO-dIP"/>
+                                <action selector="closeButtonClickWithSender:" destination="AJV-ML-Y1s" eventType="touchUpInside" id="Z9M-0s-VMw"/>
                             </connections>
                         </button>
                     </subviews>
@@ -92,12 +92,12 @@
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="closeButton" destination="sI9-eE-hA1" id="WyZ-v9-qpp"/>
-                <outlet property="containerView" destination="J2a-6D-Rha" id="6EL-AP-7se"/>
-                <outlet property="dividerView" destination="gDt-rE-pXU" id="6Qg-hl-bi0"/>
-                <outlet property="mainView" destination="IpD-Ea-DTb" id="Nch-8r-aer"/>
-                <outlet property="titleLabel" destination="ZdO-rp-SR0" id="aca-nl-Si5"/>
-                <outlet property="touchEventView" destination="bqO-N5-MSX" id="1aU-rm-6gZ"/>
+                <outlet property="closeButton" destination="sI9-eE-hA1" id="edM-B6-2W4"/>
+                <outlet property="containerView" destination="J2a-6D-Rha" id="Yu9-8b-8lW"/>
+                <outlet property="dividerView" destination="gDt-rE-pXU" id="dVt-8C-Vky"/>
+                <outlet property="mainView" destination="IpD-Ea-DTb" id="CSh-EJ-xCE"/>
+                <outlet property="titleLabel" destination="ZdO-rp-SR0" id="CVL-63-zZ8"/>
+                <outlet property="touchEventView" destination="bqO-N5-MSX" id="eWh-t7-YNg"/>
             </connections>
             <point key="canvasLocation" x="384.80000000000001" y="-481.70914542728639"/>
         </view>

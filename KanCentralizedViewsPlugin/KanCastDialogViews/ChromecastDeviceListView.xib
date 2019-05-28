@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="ChromecastDeviceListView" customModule="ZappGeneralPluginChromecast" customModuleProvider="target">
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="ChromecastDeviceListView" customModule="KanCentralizedViewsPlugin" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="396" height="147"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -36,7 +36,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="collectionView" destination="9hB-pU-icK" id="e2Z-kN-zg2"/>
+                <outlet property="collectionView" destination="9hB-pU-icK" id="V7I-8Y-epr"/>
             </connections>
             <point key="canvasLocation" x="147.19999999999999" y="278.41079460269867"/>
         </view>

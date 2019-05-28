@@ -9,9 +9,9 @@ import UIKit
 import GoogleCast
 import ZappGeneralPluginsSDK
 
-class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
+public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
     
-    override init() {
+    public override init() {
         super.init()
     }
     
@@ -19,7 +19,7 @@ class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
         let bundle = Bundle(for: ChromecastDeviceListView.self)
         let nib = UINib(nibName: "ChromecastDeviceListView", bundle: bundle)
         
-        guard let view = nib.instantiate(withOwner: nil, options: nil)[0] as? ChromecastDeviceListView else {
+        guard let view = nib.instantiate(withOwner: self, options: nil)[0] as? ChromecastDeviceListView else {
             return nil
         }
         
@@ -38,7 +38,7 @@ class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
     }
     
     //MARK: - ZPChromecastCustomDialog
-    func showDialog() {
+    public func showDialog() {
         
         var view: UIView?
         
@@ -67,18 +67,18 @@ class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
         self.showDialogView(dialogView: dialogView)
     }
     
-    func dismissDialog() {
+    public func dismissDialog() {
         self.dismissDialogViewIfNeeded()
     }
     
-    func getPlayerNavigation(shouldShowMinimizeButton: Bool) -> UIViewController {
+    public func getPlayerNavigation(shouldShowMinimizeButton: Bool) -> UIViewController {
         let bundle = Bundle(for: ChromecastCustomPlayerViewController.self)
         return KANChromecastInlinePlayerViewController.init(nibName: "KANChromecastPlayerNavigation",
                                                             bundle: bundle,
                                                             shouldShowMinimizeButton: shouldShowMinimizeButton)
     }
 
-    func getMiniPlayerNavigation() -> UIViewController {
+    public func getMiniPlayerNavigation() -> UIViewController {
         let bundle = Bundle(for: ChromecastConnectDialog.self)
         
         return KANChromecastMiniPlayerViewController.init(nibName: "KANChromecastMiniPlayerNavigation",
