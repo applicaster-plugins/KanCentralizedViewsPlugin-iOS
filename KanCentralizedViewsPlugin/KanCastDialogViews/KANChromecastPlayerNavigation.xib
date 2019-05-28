@@ -49,8 +49,12 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYh-fh-ygJ" userLabel="PlayButton">
-                            <rect key="frame" x="205" y="103" width="26" height="29"/>
-                            <state key="normal" image="nagan_play_icon.png">
+                            <rect key="frame" x="194" y="93.5" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="Ub0-iL-VTT"/>
+                                <constraint firstAttribute="width" constant="48" id="mEa-J1-9o3"/>
+                            </constraints>
+                            <state key="normal" image="sticky_play_icon.png">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <connections>
@@ -58,20 +62,28 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwa-Em-nf1" userLabel="PauseButton">
-                            <rect key="frame" x="212" y="98" width="12" height="39"/>
-                            <state key="normal" image="nagan_pause_icon.png"/>
+                            <rect key="frame" x="194" y="93.5" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="42C-2m-bxW"/>
+                                <constraint firstAttribute="height" constant="48" id="VaI-0i-uCq"/>
+                            </constraints>
+                            <state key="normal" image="sticky_pause_icon.png"/>
                             <connections>
                                 <action selector="pauseAction:" destination="-1" eventType="touchUpInside" id="Fcz-0q-Sea"/>
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="משדר ל-&quot;אבי&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfJ-me-b8Z">
-                            <rect key="frame" x="170" y="147" width="96.5" height="20.5"/>
+                            <rect key="frame" x="170" y="156.5" width="96.5" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Jwd-K2-KiP">
-                            <rect key="frame" x="208" y="107.5" width="20" height="20"/>
+                            <rect key="frame" x="206" y="105.5" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="L35-fr-qAk"/>
+                                <constraint firstAttribute="height" constant="24" id="cah-PE-fd0"/>
+                            </constraints>
                             <color key="color" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </activityIndicatorView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skC-CG-gQn" userLabel="CastContainer">
@@ -132,7 +144,7 @@
         </view>
     </objects>
     <resources>
-        <image name="nagan_pause_icon.png" width="12" height="39"/>
-        <image name="nagan_play_icon.png" width="26" height="29"/>
+        <image name="sticky_pause_icon.png" width="22" height="22"/>
+        <image name="sticky_play_icon.png" width="22" height="22"/>
     </resources>
 </document>

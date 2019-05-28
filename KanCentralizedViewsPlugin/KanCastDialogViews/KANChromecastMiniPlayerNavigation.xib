@@ -29,26 +29,26 @@
                     <rect key="frame" x="7" y="0.0" width="328" height="60"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7a-eI-XoO" userLabel="CastContainer">
-                            <rect key="frame" x="14" y="12.5" width="35" height="35"/>
+                            <rect key="frame" x="14" y="6" width="48" height="48"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="35" id="iI7-WA-Ilp"/>
-                                <constraint firstAttribute="width" constant="35" id="s1R-x2-cjl"/>
+                                <constraint firstAttribute="height" constant="48" id="iI7-WA-Ilp"/>
+                                <constraint firstAttribute="width" constant="48" id="s1R-x2-cjl"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpU-J0-cCt" userLabel="PlayPause Container">
-                            <rect key="frame" x="99" y="16" width="28" height="28"/>
+                            <rect key="frame" x="112" y="6" width="48" height="48"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZY-Mv-BgU" userLabel="Pause">
-                                    <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
-                                    <state key="normal" image="nagan_pause_icon.png"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                    <state key="normal" image="sticky_pause_icon.png"/>
                                     <connections>
                                         <action selector="pauseAction:" destination="-1" eventType="touchUpInside" id="XPr-wP-pO7"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdy-mR-MBS" userLabel="Play">
-                                    <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
-                                    <state key="normal" image="nagan_play_icon.png"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                    <state key="normal" image="sticky_play_icon.png"/>
                                     <connections>
                                         <action selector="playAction:" destination="-1" eventType="touchUpInside" id="f5A-6v-I2g"/>
                                     </connections>
@@ -58,12 +58,12 @@
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="mdy-mR-MBS" secondAttribute="trailing" id="34Y-Bj-paH"/>
                                 <constraint firstItem="9ZY-Mv-BgU" firstAttribute="leading" secondItem="VpU-J0-cCt" secondAttribute="leading" id="4WK-1x-5sc"/>
-                                <constraint firstAttribute="height" constant="28" id="4fZ-VD-09U"/>
+                                <constraint firstAttribute="height" constant="48" id="4fZ-VD-09U"/>
                                 <constraint firstAttribute="bottom" secondItem="9ZY-Mv-BgU" secondAttribute="bottom" id="D00-1c-eZB"/>
                                 <constraint firstAttribute="trailing" secondItem="9ZY-Mv-BgU" secondAttribute="trailing" id="EdW-aw-Tre"/>
                                 <constraint firstItem="mdy-mR-MBS" firstAttribute="leading" secondItem="VpU-J0-cCt" secondAttribute="leading" id="WiG-dK-ikT"/>
                                 <constraint firstAttribute="bottom" secondItem="mdy-mR-MBS" secondAttribute="bottom" id="dC8-sI-WmR"/>
-                                <constraint firstAttribute="width" constant="28" id="ePy-Oq-Lbc"/>
+                                <constraint firstAttribute="width" constant="48" id="ePy-Oq-Lbc"/>
                                 <constraint firstItem="mdy-mR-MBS" firstAttribute="top" secondItem="VpU-J0-cCt" secondAttribute="top" id="foI-bF-tbF"/>
                                 <constraint firstItem="9ZY-Mv-BgU" firstAttribute="top" secondItem="VpU-J0-cCt" secondAttribute="top" id="rAZ-FE-oHc"/>
                             </constraints>
@@ -118,7 +118,7 @@
         </view>
     </objects>
     <resources>
-        <image name="nagan_pause_icon.png" width="12" height="39"/>
-        <image name="nagan_play_icon.png" width="26" height="29"/>
+        <image name="sticky_pause_icon.png" width="22" height="22"/>
+        <image name="sticky_play_icon.png" width="22" height="22"/>
     </resources>
 </document>

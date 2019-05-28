@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleCast
+import ZappPlugins
 
 class ChromecastDeviceDisconnectView: UIView {
 
@@ -37,14 +38,33 @@ class ChromecastDeviceDisconnectView: UIView {
     
     //MARK: - Customise Text
     func customizeText() {
+        guard let currentSession = GCKCastContext.sharedInstance().sessionManager.currentSession else {
+            return
+        }
+        let castDeviceName = currentSession.device.friendlyName ?? ""
+        
+        self.connectInformation?.text = "מחובר ל- \(castDeviceName)"
         //ConnectInformation
         let connectInformationFontSize = CGFloat(16)
         let connectInformationFont = UIFont(name: "SimplerPro_V3-Regular", size: connectInformationFontSize)
         self.connectInformation?.font = connectInformationFont
-        
         //DisconnectButton
+        disconnectButtonSetup()
+    }
+    
+    func disconnectButtonSetup() {
+        disconnectButton.titleLabel?.text = "התנתק"
+        
         let disconnectButtonFontSize = CGFloat(16)
         let disconnectButtonFontFont = UIFont(name: "SimplerPro_V3-Regular", size: disconnectButtonFontSize)
         self.disconnectButton.titleLabel?.font = disconnectButtonFontFont
+        
+        guard let text = disconnectButton.titleLabel?.text else { return }
+        
+        let attributedString = NSMutableAttributedString(string: text)
+        attributedString.addAttribute(NSAttributedString.Key.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: NSRange(location: 0, length: text.count))
+        disconnectButton.setAttributedTitle(attributedString, for: .normal)
+        
+        disconnectButton.titleLabel?.textColor = UIColor.init(hex: "FF9300FF")
     }
 }
