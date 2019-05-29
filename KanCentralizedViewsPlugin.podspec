@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                         KanCentralizedViewsPlugin container.
                        DESC
-  s.homepage         = "https://github.com/applicaster/ZappGeneralPluginChromecast-iOS"
+  s.homepage         = "https://github.com/applicaster-plugins/ZappGeneralPluginChromecast-iOS"
   s.license          = 'CMPS'
 	s.author           = "Applicaster LTD."
-  s.source           = { :git => "git@github.com:applicaster/ZappGeneralPluginChromecast-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:applicaster-plugins/ZappGeneralPluginChromecast-iOS.git", :tag => s.version.to_s }
   s.platform         = :ios, '10.0'
   s.requires_arc = true
   s.static_framework = true
