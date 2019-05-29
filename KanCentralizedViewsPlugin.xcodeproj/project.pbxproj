@@ -25,20 +25,14 @@
 		078D33FF229C0A5C003CC446 /* KanDialogCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33E4229C0A5C003CC446 /* KanDialogCollectionCell.swift */; };
 		078D3400229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E5229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib */; };
 		078D3401229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D33E6229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift */; };
-		078D3402229C0A5C003CC446 /* nagan_pause_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E8229C0A5C003CC446 /* nagan_pause_icon@3x.png */; };
-		078D3403229C0A5C003CC446 /* nagan_play_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33E9229C0A5C003CC446 /* nagan_play_icon@2x.png */; };
 		078D3404229C0A5C003CC446 /* deviceCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EA229C0A5C003CC446 /* deviceCircle@2x.png */; };
 		078D3405229C0A5C003CC446 /* minimize_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EB229C0A5C003CC446 /* minimize_icon.png */; };
 		078D3406229C0A5C003CC446 /* deviceCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EC229C0A5C003CC446 /* deviceCircle@3x.png */; };
-		078D3407229C0A5C003CC446 /* nagan_play_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33ED229C0A5C003CC446 /* nagan_play_icon@3x.png */; };
-		078D3408229C0A5C003CC446 /* nagan_pause_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EE229C0A5C003CC446 /* nagan_pause_icon@2x.png */; };
 		078D3409229C0A5C003CC446 /* navBarCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33EF229C0A5C003CC446 /* navBarCircle.png */; };
 		078D340A229C0A5C003CC446 /* minimize_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F0229C0A5C003CC446 /* minimize_icon@3x.png */; };
-		078D340B229C0A5C003CC446 /* nagan_pause_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F1229C0A5C003CC446 /* nagan_pause_icon.png */; };
 		078D340C229C0A5C003CC446 /* minimize_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F2229C0A5C003CC446 /* minimize_icon@2x.png */; };
 		078D340D229C0A5C003CC446 /* navBarCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F3229C0A5C003CC446 /* navBarCircle@3x.png */; };
 		078D340E229C0A5C003CC446 /* deviceCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F4229C0A5C003CC446 /* deviceCircle.png */; };
-		078D340F229C0A5C003CC446 /* nagan_play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F5229C0A5C003CC446 /* nagan_play_icon.png */; };
 		078D3410229C0A5C003CC446 /* navBarCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */; };
 		078D3412229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */; };
 		36341544F2E3CF24D56F848A /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */; };
@@ -77,20 +71,14 @@
 		078D33E4229C0A5C003CC446 /* KanDialogCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanDialogCollectionCell.swift; sourceTree = "<group>"; };
 		078D33E5229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KANChromecastMiniPlayerNavigation.xib; sourceTree = "<group>"; };
 		078D33E6229C0A5C003CC446 /* KANChromecastInlinePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KANChromecastInlinePlayerViewController.swift; sourceTree = "<group>"; };
-		078D33E8229C0A5C003CC446 /* nagan_pause_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_pause_icon@3x.png"; sourceTree = "<group>"; };
-		078D33E9229C0A5C003CC446 /* nagan_play_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_play_icon@2x.png"; sourceTree = "<group>"; };
 		078D33EA229C0A5C003CC446 /* deviceCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceCircle@2x.png"; sourceTree = "<group>"; };
 		078D33EB229C0A5C003CC446 /* minimize_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize_icon.png; sourceTree = "<group>"; };
 		078D33EC229C0A5C003CC446 /* deviceCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviceCircle@3x.png"; sourceTree = "<group>"; };
-		078D33ED229C0A5C003CC446 /* nagan_play_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_play_icon@3x.png"; sourceTree = "<group>"; };
-		078D33EE229C0A5C003CC446 /* nagan_pause_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nagan_pause_icon@2x.png"; sourceTree = "<group>"; };
 		078D33EF229C0A5C003CC446 /* navBarCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarCircle.png; sourceTree = "<group>"; };
 		078D33F0229C0A5C003CC446 /* minimize_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize_icon@3x.png"; sourceTree = "<group>"; };
-		078D33F1229C0A5C003CC446 /* nagan_pause_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nagan_pause_icon.png; sourceTree = "<group>"; };
 		078D33F2229C0A5C003CC446 /* minimize_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize_icon@2x.png"; sourceTree = "<group>"; };
 		078D33F3229C0A5C003CC446 /* navBarCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarCircle@3x.png"; sourceTree = "<group>"; };
 		078D33F4229C0A5C003CC446 /* deviceCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviceCircle.png; sourceTree = "<group>"; };
-		078D33F5229C0A5C003CC446 /* nagan_play_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nagan_play_icon.png; sourceTree = "<group>"; };
 		078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarCircle@2x.png"; sourceTree = "<group>"; };
 		078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromecastCustomPlayerViewController.swift; sourceTree = "<group>"; };
 		159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,20 +184,14 @@
 		078D33E7229C0A5C003CC446 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				078D33E8229C0A5C003CC446 /* nagan_pause_icon@3x.png */,
-				078D33E9229C0A5C003CC446 /* nagan_play_icon@2x.png */,
 				078D33EA229C0A5C003CC446 /* deviceCircle@2x.png */,
 				078D33EB229C0A5C003CC446 /* minimize_icon.png */,
 				078D33EC229C0A5C003CC446 /* deviceCircle@3x.png */,
-				078D33ED229C0A5C003CC446 /* nagan_play_icon@3x.png */,
-				078D33EE229C0A5C003CC446 /* nagan_pause_icon@2x.png */,
 				078D33EF229C0A5C003CC446 /* navBarCircle.png */,
 				078D33F0229C0A5C003CC446 /* minimize_icon@3x.png */,
-				078D33F1229C0A5C003CC446 /* nagan_pause_icon.png */,
 				078D33F2229C0A5C003CC446 /* minimize_icon@2x.png */,
 				078D33F3229C0A5C003CC446 /* navBarCircle@3x.png */,
 				078D33F4229C0A5C003CC446 /* deviceCircle.png */,
-				078D33F5229C0A5C003CC446 /* nagan_play_icon.png */,
 				078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */,
 			);
 			path = Assets;
@@ -334,9 +316,7 @@
 				078D3405229C0A5C003CC446 /* minimize_icon.png in Resources */,
 				078D3410229C0A5C003CC446 /* navBarCircle@2x.png in Resources */,
 				078D340D229C0A5C003CC446 /* navBarCircle@3x.png in Resources */,
-				078D340B229C0A5C003CC446 /* nagan_pause_icon.png in Resources */,
 				078D33FD229C0A5C003CC446 /* ChromecastDeviceDisconnectView.xib in Resources */,
-				078D3402229C0A5C003CC446 /* nagan_pause_icon@3x.png in Resources */,
 				078D3400229C0A5C003CC446 /* KANChromecastMiniPlayerNavigation.xib in Resources */,
 				078D340C229C0A5C003CC446 /* minimize_icon@2x.png in Resources */,
 				078D3406229C0A5C003CC446 /* deviceCircle@3x.png in Resources */,
@@ -344,12 +324,8 @@
 				078D33F7229C0A5C003CC446 /* KanDialogCollectionCell.xib in Resources */,
 				078D340A229C0A5C003CC446 /* minimize_icon@3x.png in Resources */,
 				0723170D229BB38A005DFE6A /* KanDialogView.xib in Resources */,
-				078D340F229C0A5C003CC446 /* nagan_play_icon.png in Resources */,
 				078D3404229C0A5C003CC446 /* deviceCircle@2x.png in Resources */,
-				078D3403229C0A5C003CC446 /* nagan_play_icon@2x.png in Resources */,
-				078D3408229C0A5C003CC446 /* nagan_pause_icon@2x.png in Resources */,
 				078D33FC229C0A5C003CC446 /* KANChromecastPlayerNavigation.xib in Resources */,
-				078D3407229C0A5C003CC446 /* nagan_play_icon@3x.png in Resources */,
 				078D340E229C0A5C003CC446 /* deviceCircle.png in Resources */,
 				078D33FA229C0A5C003CC446 /* ChromecastDeviceListView.xib in Resources */,
 			);
