@@ -26,4 +26,6 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins'
+  s.dependency 'ZappGeneralPluginsSDK'
+  s.dependency 'google-cast-sdk', '= 4.3.3'
 end
