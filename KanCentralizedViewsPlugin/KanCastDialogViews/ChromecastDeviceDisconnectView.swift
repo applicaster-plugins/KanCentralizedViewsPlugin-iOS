@@ -65,6 +65,6 @@ class ChromecastDeviceDisconnectView: UIView {
         attributedString.addAttribute(NSAttributedString.Key.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: NSRange(location: 0, length: text.count))
         disconnectButton.setAttributedTitle(attributedString, for: .normal)
         
-        disconnectButton.titleLabel?.textColor = UIColor.init(hex: "FF9300FF")
+        disconnectButton.titleLabel?.textColor = UIColor.init(hex: "29abe2FF")
     }
 }
