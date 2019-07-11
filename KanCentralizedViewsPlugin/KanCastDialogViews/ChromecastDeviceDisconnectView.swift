@@ -42,8 +42,8 @@ class ChromecastDeviceDisconnectView: UIView {
             return
         }
         let castDeviceName = currentSession.device.friendlyName ?? ""
-        let connectToInfoText = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: "device_msg_transmitter_to", defaultString: "מחובר ל - ")
-        self.connectInformation?.text = connectToInfoText! + castDeviceName
+        let connectToInfoText: String = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: "device_msg_transmitter_to", defaultString: "מחובר ל - ")
+        self.connectInformation?.text = connectToInfoText + castDeviceName
         //ConnectInformation
         let connectInformationFontSize = CGFloat(16)
         let connectInformationFont = UIFont(name: "SimplerPro_V3-Regular", size: connectInformationFontSize)
