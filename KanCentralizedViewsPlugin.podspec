@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "KanCentralizedViewsPlugin"
-  s.version          = '0.1.0'
+  s.version          = '0.1.6'
   s.summary          = "KanCentralizedViewsPlugin"
   s.description      = <<-DESC
                         KanCentralizedViewsPlugin container.
