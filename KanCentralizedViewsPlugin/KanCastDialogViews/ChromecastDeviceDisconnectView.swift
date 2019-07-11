@@ -42,7 +42,8 @@ class ChromecastDeviceDisconnectView: UIView {
             return
         }
         let castDeviceName = currentSession.device.friendlyName ?? ""
-        let connectToInfoText: String = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: "device_msg_transmitter_to", defaultString: "מחובר ל - ")
+        let chromecastTransmissionRecieverTextKey = "device_msg_transmitter_to"
+        let connectToInfoText: String = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: chromecastTransmissionRecieverTextKey, defaultString: "מחובר ל - ")
         self.connectInformation?.text = connectToInfoText + castDeviceName
         //ConnectInformation
         let connectInformationFontSize = CGFloat(16)
@@ -53,7 +54,8 @@ class ChromecastDeviceDisconnectView: UIView {
     }
     
     func disconnectButtonSetup() {
-        let disconnectText = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: "chromecast_actionSheet_disconnect_button", defaultString: "התנתק")
+        let chromecastDisconnectTextKey = "chromecast_actionSheet_disconnect_button"
+        let disconnectText = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: chromecastDisconnectTextKey, defaultString: "התנתק")
         disconnectButton.titleLabel?.text = disconnectText
         
         let disconnectButtonFontSize = CGFloat(16)

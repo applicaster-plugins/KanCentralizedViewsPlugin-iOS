@@ -51,9 +51,9 @@ public class KanDialogView: UIView {
         }
         
         if let configuration = configuration {
-            if let title = configuration["sleep_mode_title"] as? String,
-                let titleLabel = titleLabel{
-                titleLabel.text = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: "chromecast_actionSheet_title", defaultString: "המסך הזה קטן מדי בשבילי, נראה לי שאלך על")
+            if let titleLabel = titleLabel{
+                let chromecastScreenSelectionTextKey = "chromecast_actionSheet_title"
+                titleLabel.text = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: chromecastScreenSelectionTextKey, defaultString: "המסך הזה קטן מדי בשבילי, נראה לי שאלך על")
                 titleLabel.setFont(fontNameKey: "action_text_sleep_mode_font_name",
                                    fontSizeKey: "action_text_sleep_mode_font_size",
                                    from: pluginStyles)
@@ -61,7 +61,8 @@ public class KanDialogView: UIView {
                 titleLabel.setColor(key: "action_text_sleep_mode_color",
                                     from: pluginStyles)
             }
-            if let closeButtonTitle = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: "chromecast_actionSheet_cancel_button", defaultString: "סגירה"),
+            let chromecastCancelButtonTextKey = "chromecast_actionSheet_cancel_button"
+            if let closeButtonTitle = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: chromecastCancelButtonTextKey, defaultString: "סגירה"),
                 let closeButton = closeButton {
                 closeButton.setTitle(closeButtonTitle, for: .normal)
                 closeButton.setFont(fontNameKey: "close_text_sleep_mode_font_name",
