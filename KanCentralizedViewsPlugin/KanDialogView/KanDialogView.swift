@@ -29,7 +29,7 @@ public class KanDialogView: UIView {
         let gesture = UITapGestureRecognizer(target: self,
                                              action: #selector (touchEventViewTuched (_:)))
         self.touchEventView.addGestureRecognizer(gesture)
-        
+        self.updateTitles()
     }
     
     override init(frame: CGRect) {
@@ -39,6 +39,18 @@ public class KanDialogView: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+    }
+    
+    func updateTitles() {
+        if let titleLabel = titleLabel {
+            let chromecastScreenSelectionTextKey = "chromecast_actionSheet_title"
+            titleLabel.text = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: chromecastScreenSelectionTextKey, defaultString: "המסך הזה קטן מדי בשבילי, נראה לי שאלך על")
+        }
+        let chromecastCancelButtonTextKey = "chromecast_actionSheet_cancel_button"
+        if let closeButtonTitle = ZAAppConnector.sharedInstance().localizationDelegate.localizationString(byKey: chromecastCancelButtonTextKey, defaultString: "סגירה"),
+            let closeButton = closeButton {
+            closeButton.setTitle(closeButtonTitle, for: .normal)
+        }
     }
 
     
