@@ -206,8 +206,9 @@ PLATFORMS
 
 DEPENDENCIES
   cocoapods (= 1.5.3)
+  dotenv (= 2.7.4)
   excon (= 0.64.0)
-  fastlane
+  fastlane (= 2.127.1)
   xcpretty
 
 BUNDLED WITH
