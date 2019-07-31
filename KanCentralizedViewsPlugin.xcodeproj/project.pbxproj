@@ -35,8 +35,8 @@
 		078D340E229C0A5C003CC446 /* deviceCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F4229C0A5C003CC446 /* deviceCircle.png */; };
 		078D3410229C0A5C003CC446 /* navBarCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */; };
 		078D3412229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */; };
-		36341544F2E3CF24D56F848A /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */; };
-		79988DD84056045964F9AA58 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */; };
+		E7559986D8505948982F2261 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEAECDCAA236299A8B62408 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */; };
+		FFAF8D190B4981B0547EA307 /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBDEAB1ADF3B44FD4BE8E90 /* Pods_KanCentralizedViewsPlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,12 +81,12 @@
 		078D33F4229C0A5C003CC446 /* deviceCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviceCircle.png; sourceTree = "<group>"; };
 		078D33F6229C0A5C003CC446 /* navBarCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarCircle@2x.png"; sourceTree = "<group>"; };
 		078D3411229C10E0003CC446 /* ChromecastCustomPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromecastCustomPlayerViewController.swift; sourceTree = "<group>"; };
-		159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; sourceTree = "<group>"; };
-		187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0956922C1A0E20F3569B307 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin.debug.xcconfig"; sourceTree = "<group>"; };
-		D707DB2124E90BD8EFD39783 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		2DEAECDCAA236299A8B62408 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBDEAB1ADF3B44FD4BE8E90 /* Pods_KanCentralizedViewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanCentralizedViewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A1EA8B099C1832B2F218A5 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		8031FA735D743073214BEEB7 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		8B8F3367ADC32DC69B462808 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F414848F1FD1FC16F3614066 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36341544F2E3CF24D56F848A /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */,
+				FFAF8D190B4981B0547EA307 /* Pods_KanCentralizedViewsPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				072316EE229BAD8D005DFE6A /* KanCentralizedViewsPlugin.framework in Frameworks */,
-				79988DD84056045964F9AA58 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */,
+				E7559986D8505948982F2261 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +116,8 @@
 				072316E6229BAD8D005DFE6A /* KanCentralizedViewsPlugin */,
 				072316F1229BAD8D005DFE6A /* KanCentralizedViewsPluginTests */,
 				072316E5229BAD8D005DFE6A /* Products */,
-				1C1EE7291DF4B2B36136E8E6 /* Pods */,
-				806B8835AE4BF4813C464B19 /* Frameworks */,
+				73857782FEDDEA7BB1D70EF4 /* Pods */,
+				DCF4B1DA1F71C28A35A8B882 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,22 +197,22 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		1C1EE7291DF4B2B36136E8E6 /* Pods */ = {
+		73857782FEDDEA7BB1D70EF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0956922C1A0E20F3569B307 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */,
-				D707DB2124E90BD8EFD39783 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */,
-				2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */,
-				159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */,
+				49A1EA8B099C1832B2F218A5 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */,
+				8031FA735D743073214BEEB7 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */,
+				8B8F3367ADC32DC69B462808 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */,
+				F414848F1FD1FC16F3614066 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		806B8835AE4BF4813C464B19 /* Frameworks */ = {
+		DCF4B1DA1F71C28A35A8B882 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				187D38BB535FAEFED020888A /* Pods_KanCentralizedViewsPlugin.framework */,
-				9FD3AC00689FE4926DE662B4 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */,
+				3EBDEAB1ADF3B44FD4BE8E90 /* Pods_KanCentralizedViewsPlugin.framework */,
+				2DEAECDCAA236299A8B62408 /* Pods_KanCentralizedViewsPlugin_KanCentralizedViewsPluginTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,12 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 072316F8229BAD8D005DFE6A /* Build configuration list for PBXNativeTarget "KanCentralizedViewsPlugin" */;
 			buildPhases = (
-				CDCD8EF0D28A9C880B74EE81 /* [CP] Check Pods Manifest.lock */,
+				A52CE9CFF5F0047ECDA5BFF0 /* [CP] Check Pods Manifest.lock */,
 				072316DF229BAD8D005DFE6A /* Headers */,
 				072316E0229BAD8D005DFE6A /* Sources */,
 				072316E1229BAD8D005DFE6A /* Frameworks */,
 				072316E2229BAD8D005DFE6A /* Resources */,
-				A180034398A82692A670FABD /* [CP] Copy Pods Resources */,
+				A03ED9ECC0F30DFB2070ED35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,12 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 072316FB229BAD8D005DFE6A /* Build configuration list for PBXNativeTarget "KanCentralizedViewsPluginTests" */;
 			buildPhases = (
-				88E83CB379652819EDC1AD8C /* [CP] Check Pods Manifest.lock */,
+				CEBAB7C6E1A701956B81BA05 /* [CP] Check Pods Manifest.lock */,
 				072316E9229BAD8D005DFE6A /* Sources */,
 				072316EA229BAD8D005DFE6A /* Frameworks */,
 				072316EB229BAD8D005DFE6A /* Resources */,
-				B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */,
-				5FE7D92D13F81E6DF9A41ABB /* [CP] Copy Pods Resources */,
+				9DADC5143BD8BA837A62DE5D /* [CP] Embed Pods Frameworks */,
+				CB10C747C581B446722F59D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,77 +341,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5FE7D92D13F81E6DF9A41ABB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		88E83CB379652819EDC1AD8C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A180034398A82692A670FABD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */ = {
+		9DADC5143BD8BA837A62DE5D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,7 +367,31 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDCD8EF0D28A9C880B74EE81 /* [CP] Check Pods Manifest.lock */ = {
+		A03ED9ECC0F30DFB2070ED35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52CE9CFF5F0047ECDA5BFF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,6 +407,52 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KanCentralizedViewsPlugin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB10C747C581B446722F59D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBAB7C6E1A701956B81BA05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -557,6 +557,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -614,6 +615,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -622,7 +624,7 @@
 		};
 		072316F9229BAD8D005DFE6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0956922C1A0E20F3569B307 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */;
+			baseConfigurationReference = 49A1EA8B099C1832B2F218A5 /* Pods-KanCentralizedViewsPlugin.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -641,14 +643,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		072316FA229BAD8D005DFE6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D707DB2124E90BD8EFD39783 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */;
+			baseConfigurationReference = 8031FA735D743073214BEEB7 /* Pods-KanCentralizedViewsPlugin.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -667,16 +668,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		072316FC229BAD8D005DFE6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EB9B9BE0D316237782AD61F /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */;
+			baseConfigurationReference = 8B8F3367ADC32DC69B462808 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KanCentralizedViewsPluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -686,16 +685,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		072316FD229BAD8D005DFE6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 159AD7776D06701A945ED675 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */;
+			baseConfigurationReference = F414848F1FD1FC16F3614066 /* Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KanCentralizedViewsPluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -705,7 +702,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
