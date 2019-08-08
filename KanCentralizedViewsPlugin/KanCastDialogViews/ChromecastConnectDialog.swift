@@ -11,9 +11,18 @@ import ZappGeneralPluginsSDK
 
 public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
     
-    public override init() {
+    public required init() {
         super.init()
     }
+    
+    required init(configurationJSON: NSDictionary?) {
+        fatalError("init(configurationJSON:) has not been implemented")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     
     func collectionViewXibSetup(cellSize: CGFloat) -> UIView? {
         let bundle = Bundle(for: ChromecastDeviceListView.self)

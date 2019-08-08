@@ -1,0 +1,36 @@
+{
+	"api": {
+		"require_startup_execution": false,
+		"class_name": "ChromecastConnectDialog",
+		"modules": [
+			"KanCentralizedViewsPlugin"
+		]
+	},
+	"dependency_repository_url": [
+		"https://github.com/applicaster-plugins/KanCentralizedViewsPlugin-iOS"
+	],
+	"platform": "ios",
+	"author_name": "Miri Vecselboim",
+	"author_email": "m.vecselboim@applicaster.com",
+	"manifest_version": "1.0.0",
+	"name": "Kan Centralized View",
+	"description": "kan centralized views",
+	"type": "general",
+	"identifier": "kan_centralized_views",
+	"ui_builder_support": true,
+	"dependency_name": "KanCentralizedViewsPlugin",
+	"dependency_version": "1.0.0",
+	"whitelisted_account_ids": [
+		"584ec4a0444cce0009388176",
+		"58d958164294630009cd2373",
+		"5c3b12762756be0008779106"
+	],
+	"min_zapp_sdk": "12.0.0-Dev",
+	"deprecated_since_zapp_sdk": "",
+	"unsupported_since_zapp_sdk": "",
+	"react_native": false,
+	"custom_configuration_fields": [],
+	"targets": [
+		"mobile"
+	]
+}

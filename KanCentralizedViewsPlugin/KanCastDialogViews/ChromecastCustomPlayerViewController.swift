@@ -413,7 +413,7 @@ extension NSNotification.Name {
 
     }
     //MARK: - GCKRemoteMediaClientListener Implementation
-    func remoteMediaClient(_ client: GCKRemoteMediaClient, didStartMediaSessionWithID sessionID: Int) {
+    public func remoteMediaClient(_ client: GCKRemoteMediaClient, didStartMediaSessionWithID sessionID: Int) {
         playerSetup()
     }
     
