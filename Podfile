@@ -3,9 +3,9 @@ platform :ios, '10.0'
 use_frameworks!
 install! 'cocoapods', :deterministic_uuids => false
 
-source 'git@github.com:CocoaPods/Specs.git'
 source 'git@github.com:applicaster/CocoaPods-Private.git'
 source 'git@github.com:applicaster/CocoaPods.git'
+source 'https://cdn.cocoapods.org/'
 
 pre_install do |installer|
     # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289

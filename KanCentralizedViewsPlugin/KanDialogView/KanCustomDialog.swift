@@ -7,16 +7,13 @@
 
 import UIKit
 import ZappPlugins
+import ZappGeneralPluginsSDK
 
-open class KanCustomDialog: NSObject {
+open class KanCustomDialog: ZPGeneralBaseProvider {
     
     public var dialogView: KanDialogView?
     
     let KanDialogCollectionCellIdentifier = "KanDialogCollectionCell"
-    
-    override init() {
-        super.init()
-    }
     
     func getDialogView() -> KanDialogView? {
         let bundle = Bundle(for: KanDialogView.self)

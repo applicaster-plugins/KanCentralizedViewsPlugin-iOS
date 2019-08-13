@@ -347,22 +347,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		88E83CB379652819EDC1AD8C /* [CP] Check Pods Manifest.lock */ = {
@@ -393,22 +386,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin/Pods-KanCentralizedViewsPlugin-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B61B2380E9AFF347E496ED43 /* [CP] Embed Pods Frameworks */ = {
@@ -417,24 +403,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/ZappGeneralPluginsSDK/ZappGeneralPluginsSDK.framework",
-				"${PODS_ROOT}/ZappPlugins/Frameworks/iOS/ZappPlugins.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappGeneralPluginsSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests/Pods-KanCentralizedViewsPlugin-KanCentralizedViewsPluginTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDCD8EF0D28A9C880B74EE81 /* [CP] Check Pods Manifest.lock */ = {
@@ -641,7 +618,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -667,7 +644,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -686,7 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -705,7 +682,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.KanCentralizedViewsPluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

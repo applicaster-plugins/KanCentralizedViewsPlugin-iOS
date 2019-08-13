@@ -11,9 +11,18 @@ import ZappGeneralPluginsSDK
 
 public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
     
-    public override init() {
+    public required init() {
         super.init()
     }
+    
+    required init(configurationJSON: NSDictionary?) {
+        fatalError("init(configurationJSON:) has not been implemented")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     
     func collectionViewXibSetup(cellSize: CGFloat) -> UIView? {
         let bundle = Bundle(for: ChromecastDeviceListView.self)
@@ -71,11 +80,11 @@ public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog 
         self.dismissDialogViewIfNeeded()
     }
     
-    public func getPlayerNavigation(shouldShowMinimizeButton: Bool) -> UIViewController {
+    public func getPlayerNavigation() -> UIViewController {
         let bundle = Bundle(for: ChromecastCustomPlayerViewController.self)
         return KANChromecastInlinePlayerViewController.init(nibName: "KANChromecastPlayerNavigation",
                                                             bundle: bundle,
-                                                            shouldShowMinimizeButton: shouldShowMinimizeButton)
+                                                            shouldShowMinimizeButton: false)
     }
 
     public func getMiniPlayerNavigation() -> UIViewController {
