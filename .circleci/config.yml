@@ -14,7 +14,7 @@ jobs:
       - PROJECT_NAME: "KanCentralizedViewsPlugin"
       - SCRIPTS_LOCAL_FOLDER: "~/.scripts-iOS"
       - SCRIPTS_REPO_PATH: "git@github.com:applicaster/Scripts-iOS.git"
-      - DEPLOY_VERSION: "0.5.0"
+      - DEPLOY_VERSION: "0.8.11"
       - DEPLOY_COMMAND: "~/.scripts-iOS/circleCi/deploySinglePlugin.sh"
     working_directory: ~/KanCentralizedViewsPlugin-iOS
 
@@ -40,7 +40,7 @@ jobs:
 
       - save_cache:
           name: Git - save cache
-          key: Zapp-AnalyticsPlugins-v1-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: KanCentralizedViewsPlugin-v1-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
@@ -81,7 +81,7 @@ jobs:
       # Restore Cocoapods cache, save cache on lower level, after pod update
       - restore_cache:
           name: CocoaPods - restore cache
-          key: KanCentralizedViewsPlugin-CocoaPods-2
+          key: KanCentralizedViewsPlugin-v1-CocoaPods
 
       - run:
           name: CocoaPods - version
