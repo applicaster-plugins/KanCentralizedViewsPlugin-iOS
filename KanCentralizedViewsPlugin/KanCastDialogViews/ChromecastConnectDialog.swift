@@ -80,11 +80,11 @@ public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog 
         self.dismissDialogViewIfNeeded()
     }
     
-    public func getPlayerNavigation(shouldShowMinimizeButton: Bool) -> UIViewController {
+    public func getPlayerNavigation() -> UIViewController {
         let bundle = Bundle(for: ChromecastCustomPlayerViewController.self)
         return KANChromecastInlinePlayerViewController.init(nibName: "KANChromecastPlayerNavigation",
                                                             bundle: bundle,
-                                                            shouldShowMinimizeButton: shouldShowMinimizeButton)
+                                                            shouldShowMinimizeButton: false)
     }
 
     public func getMiniPlayerNavigation() -> UIViewController {
