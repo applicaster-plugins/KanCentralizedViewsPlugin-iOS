@@ -4,10 +4,10 @@ PODS:
     - Protobuf (~> 3.0)
   - google-cast-sdk/Core (4.3.3):
     - Protobuf (~> 3.0)
-  - Protobuf (3.7.0)
-  - ZappGeneralPluginsSDK (7.3.0):
+  - Protobuf (3.9.0)
+  - ZappGeneralPluginsSDK (8.1.0):
     - ZappPlugins
-  - ZappPlugins (8.3.1)
+  - ZappPlugins (9.1.8)
 
 DEPENDENCIES:
   - google-cast-sdk (= 4.3.3)
@@ -25,10 +25,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   google-cast-sdk: 792980f4fa5afd4f9b91f41d582cc75251648f3a
-  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
-  ZappGeneralPluginsSDK: 21cd76e9262a44509b523c7b7e0973a435f33ba9
-  ZappPlugins: c83e7569d70312a3203dde46d7743fdad394589c
+  Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
+  ZappGeneralPluginsSDK: 7e91f6030d9f1b81b4781e823b0197bfad351bde
+  ZappPlugins: 19d19d6fe70d39a4fc5a323e6a9146e0ab629970
 
-PODFILE CHECKSUM: 19c1971714b61ad59a1b93ee91ca9a106c74d7d6
+PODFILE CHECKSUM: b837c5a981d3615c5b3b1ffdf1f6576a599af504
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
