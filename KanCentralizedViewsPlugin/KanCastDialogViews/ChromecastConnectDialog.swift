@@ -16,11 +16,11 @@ public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog 
     }
     
     required init(configurationJSON: NSDictionary?) {
-        fatalError("init(configurationJSON:) has not been implemented")
+        super.init(configurationJSON: configurationJSON)
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
     
     
