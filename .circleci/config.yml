@@ -21,7 +21,7 @@ jobs:
     steps:
       - run:
           name: Ruby - set version
-          command:  echo "ruby-2.4" > ~/.ruby-version
+          command:  echo "ruby-2.5" > ~/.ruby-version
 
       - run:
           name: Ruby - version
