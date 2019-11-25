@@ -11,7 +11,7 @@ pre_install do |installer|
     # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
     Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
 end
-
+ 
 def shared_pods
   pod 'ZappPlugins'
   pod 'google-cast-sdk', '= 4.3.3'
