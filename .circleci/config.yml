@@ -30,17 +30,17 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: KanCentralizedViewsPlugin-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: KanCentralizedViewsPlugin-v4-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - KanCentralizedViewsPlugin-v3-{{ .Branch }}-{{ .Revision }}
-            - KanCentralizedViewsPlugin-v3-{{ .Branch }}-
-            - KanCentralizedViewsPlugin-v3-
+            - KanCentralizedViewsPlugin-v4-{{ .Branch }}-{{ .Revision }}
+            - KanCentralizedViewsPlugin-v4-{{ .Branch }}-
+            - KanCentralizedViewsPlugin-v4-
 
       - checkout
 
       - save_cache:
           name: Git - save cache
-          key: KanCentralizedViewsPlugin-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: KanCentralizedViewsPlugin-v4-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
@@ -66,7 +66,7 @@ jobs:
       # Prepare Bundler
       - restore_cache:
           name: Bundler - restore cache
-          key: KanCentralizedViewsPlugin-v3-{{ checksum "Gemfile.lock" }}
+          key: KanCentralizedViewsPlugin-v4-{{ checksum "Gemfile.lock" }}
 
       - run:
           name: Bundler - update dependencies
@@ -74,14 +74,14 @@ jobs:
 
       - save_cache:
           name: Bundler - save cache
-          key: KanCentralizedViewsPlugin-v3-{{ checksum "Gemfile.lock" }}
+          key: KanCentralizedViewsPlugin-v4-{{ checksum "Gemfile.lock" }}
           paths:
             - /Users/distiller/.rubies/ruby-2.4.2/lib/ruby/gems/2.4.0/gems
 
       # Restore Cocoapods cache, save cache on lower level, after pod update
       - restore_cache:
           name: CocoaPods - restore cache
-          key: KanCentralizedViewsPlugin-v3-CocoaPods
+          key: KanCentralizedViewsPlugin-v4-CocoaPods
 
       - run:
           name: CocoaPods - version
