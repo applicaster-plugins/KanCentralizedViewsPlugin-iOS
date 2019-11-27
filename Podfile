@@ -17,7 +17,7 @@ def shared_pods
   pod 'google-cast-sdk', '= 4.4.4'
   pod 'ZappGeneralPluginsSDK'
 end
-
+ 
 target 'KanCentralizedViewsPlugin' do
   shared_pods
   target 'KanCentralizedViewsPluginTests' do
