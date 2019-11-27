@@ -7,7 +7,7 @@
 
 import UIKit
 import GoogleCast
-import ZappGeneralPluginsSDK
+import ZappPlugins
 
 public class ChromecastConnectDialog: KanCustomDialog, ZPChromecastCustomDialog {
     
