@@ -14,7 +14,7 @@ end
  
 def shared_pods
   pod 'ZappPlugins'
-  pod 'google-cast-sdk', '= 4.4.4'
+  pod 'google-cast-sdk-no-bluetooth', '= 4.5.0'
   pod 'ZappGeneralPluginsSDK'
 end
  

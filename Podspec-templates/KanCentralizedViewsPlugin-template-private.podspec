@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'ZappPlugins'
   s.dependency 'ZappGeneralPluginsSDK'
-  s.dependency 'google-cast-sdk-no-bluetooth', '= 4.4.4'
+  s.dependency 'google-cast-sdk-no-bluetooth', '= 4.5.0'
 end
